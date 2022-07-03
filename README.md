@@ -1,1 +1,7 @@
-# 2-7-22-ass4
+n=int(input())
+o=[]
+l=list(map(int,input().split()))
+for i in range(0,n):
+    if(l[i]%2!=0):
+        o.append(l[i])
+print(o)
